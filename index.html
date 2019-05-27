@@ -2,10 +2,10 @@
 Instructions
 
 
-When the page is finished loading, change the text to "Woof!"
-When you hover over the button the text should change to "Woof woof!"
-When you click the button a picture of a doge should show up somewhere on the page
-When you click the button again, the picture should disappear
+OK - When the page is finished loading, change the text to "Woof!"
+OK - When you hover over the button the text should change to "Woof woof!"
+OK - When you click the button a picture of a doge should show up somewhere on the page
+OK - When you click the button again, the picture should disappear
 -->
 
 <!DOCTYPE html>
@@ -17,8 +17,9 @@ When you click the button again, the picture should disappear
     <link rel="stylesheet" href="style.css" />
     <title>Doge-JS</title>
   </head>
-  <body>
+  <body onload="document.getElementById('doge').innerHTML = 'Woof'">
     <div>
+      <img id="bgimage" src="Assets/Doge.jpg" alt="Doge" />
       <button id="doge">Doggo</button>
     </div>
     <script src="script.js"></script>

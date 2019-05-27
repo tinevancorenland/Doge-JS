@@ -1,5 +1,16 @@
 button {
   margin: auto;
-  margin-top: 25%;
+  margin-top: 5px;
   display: block;
+  padding: 10px 40px;
+  background-color: whitesmoke;
+  border: 2px solid orange;
+}
+
+img {
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-top: 5px;
+  display: none;
+  background-size: 30%;
 }
